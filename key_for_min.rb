@@ -5,12 +5,13 @@ def key_for_min_value(name_hash)
 
   min = nil
   valuetemp = 0
-  name_hash.each {|name, value|
+  name_hash.each do|name, value|
+  
     if value < valuetemp
       min = name
       valuetemp = value
     end 
-  }
-  min
+  end
   
+  min
 end
