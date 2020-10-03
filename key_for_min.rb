@@ -3,4 +3,8 @@
 
 def key_for_min_value(name_hash)
 
+  min = ''
+  valuetemp = 0
+  name_hash.key_for_min_value {| name, value|}
+  
 end
